@@ -1,11 +1,9 @@
 // CartWidget.js
 import React from 'react';
-
 const CartWidget = () => {
   return (
     <div>
-      <img src="" alt="FOTO" />
-
+      <img src="" alt="foto" />
     </div>
   );
 };
