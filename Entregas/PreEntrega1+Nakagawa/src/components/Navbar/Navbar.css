@@ -1,6 +1,6 @@
 /* NavBar styles */
 .nav-bar {
-    flex-direction: row-reverse;
+    flex-direction: row;
     background-color: #333;
     padding: 10px;
     display: flex;
@@ -9,6 +9,7 @@
   }
   
   .nav-list {
+    flex-direction: row-reverse;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,4 +28,7 @@
     color: white;
     text-decoration: none;
   }
-  
+  .titulo{
+    color: #9c7710;
+    margin:5px;
+  }
